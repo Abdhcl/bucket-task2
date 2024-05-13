@@ -9,6 +9,10 @@ module "mybucket1" {
 }
 
 output "bucket_name"{
-    value = module.mybucket1.mybucket
+    value = module.mybucket1.bucket_name
+}
+
+output "bucket_name"{
+    value = module.mybucket1.bucket_loaction
 }
 
